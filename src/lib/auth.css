@@ -1,0 +1,131 @@
+.auth-page {
+	background: #d2d6de;
+}
+
+.auth-inner {
+	height: 100%;
+	width: 100%;
+}
+
+.auth-wrapper {
+	height: 100vh;
+}
+
+.lp,
+.rp {
+	height: auto;
+}
+
+.lp,
+.rp {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.lp .lp-form,
+.rp .rp-form {
+	width: 100%;
+	min-height: 50px;
+	background: #fff;
+	padding: 15px 15px;
+}
+
+.lp .lp-form h1,
+.rp .rp-form h1 {
+	font-size: 20px;
+	color: #3a4653;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.lp .lp-form p,
+.rp .form-wrapper p {
+	color: #3a4653;
+	text-align: center;
+	font-size: 11px;
+}
+
+.lp .lp-form .form-group a {
+	position: relative;
+	font-size: 11px;
+	right: 5px;
+	top: 4px;
+	float: right;
+}
+
+.lp-s-link {
+	display: block;
+}
+
+.lp-s-link a {
+	font-size: 11px;
+}
+
+.lp .social-link {
+	position: relative;
+	top: 24px;
+	border-top: 1px solid #ccc;
+	padding: 6px 0;
+}
+
+.lp .social-link span {
+	font-size: 11px;
+}
+
+.lp .lp-footer,
+.rp .rp-footer {
+	position: relative;
+	top: 24px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+.lp .lp-footer h2,
+.rp .rp-footer h2 {
+	font-size: 15px;
+}
+
+.lp .lp-form label {
+	font-size: 12px;
+}
+
+.rp-login-link {
+	position: relative;
+}
+
+.rp-login-link a {
+	font-size: 12px;
+	float: right;
+}
+
+@media(min-width: 360px) {
+
+	.lp,
+	.rp {
+		height: 100%;
+	}
+
+	.lp .lp-form h1 {
+		font-size: 25px;
+	}
+
+	.lp .lp-footer,
+	.rp .rp-footer {
+		padding-bottom: 10px;
+	}
+}
+
+@media(min-width:400px) {
+
+	.lp .lp-form,
+	.rp .rp-form {
+		width: 360px;
+	}
+}
+
+@media(min-width: 750px) {
+	.lp .lp-form p {
+		font-size: 12px;
+	}
+}

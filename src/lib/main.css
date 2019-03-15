@@ -1,0 +1,76 @@
+body {
+    font-family: ubuntu,playfair display,Arial,Helvetica,sans-serif, 'Source Sans Pro','Helvetica Neue',Helvetica;
+    line-height: 1.6;
+}
+.avatar-wr {
+    width: 220px;
+}
+.avatar-upl {
+    position: relative;
+    display: block;
+}
+.avatar-upl span {
+    position: absolute;
+    top: 50%;
+    left: 16%;
+    background-color: rgba(0,0,0,0.25);
+    width: 150px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    visibility: hidden;
+}
+.avatar-upl:hover span {
+    visibility: visible;
+}
+.avatar-upl .progress {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    font-size: 15px;
+    height: 24px;
+}
+.shot-preview, .avatar-placeholder, .avatar {
+    position: relative;
+    text-align: center;
+    line-height: 200px;
+    color: #848484;
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ddd;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.avatar-placeholder {
+    background-image: url(../assets/default.png);
+}
+.avatar .progress, .avatar-placeholder .progress {
+    position: absolute;
+    width: 100%;
+    top: 89px;
+}
+.box-photo {
+    position: relative;
+    text-align: center;
+    line-height: 100px;
+    color: #848484;
+    height: 100px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ddd;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.box-photo i.fa-trash {
+    visibility: hidden;
+}
+.box-photo:hover i.fa-trash {
+    visibility: visible;
+}
